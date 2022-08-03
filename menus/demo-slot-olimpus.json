@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle demo-slot-olimpus",
+        "command": "demo-slot-olimpus:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "demo-slot-olimpus",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "demo-slot-olimpus:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
